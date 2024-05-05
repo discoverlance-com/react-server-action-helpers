@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Introduction
 description: Introduction to react server action. Get started here.
 ---
 
