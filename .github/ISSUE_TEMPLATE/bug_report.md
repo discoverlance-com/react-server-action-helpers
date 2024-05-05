@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-## Thanks for submitting this idea to improve the project. Please make sure to check any open or closed issues to verify that it's not something that is already worked on or being worked on. 
+### Thanks for submitting this idea to improve the project. Please make sure to check any open or closed issues to verify that it's not something that is already worked on or being worked on. 
 
-### If you are not sure this is a bug or not, please open a discussion instead:
+#### If you are not sure this is a bug or not, please open a discussion instead:
         - [Discussions](https://github.com/discoverlance-com/react-server-action-helpers/discussions/new?category=general)
 
 **Describe the bug**
