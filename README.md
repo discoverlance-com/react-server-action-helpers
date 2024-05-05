@@ -1,6 +1,6 @@
 # react-server-action-helpers (rsah)
 
-Get access to a range of helpers and tools to build your own experience with react server actions.
+Get access to a range of helpers and tools to build your own form experience with react server actions.
 
 <!-- TODO: Put an Image Here -->
 
