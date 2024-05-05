@@ -23,9 +23,10 @@ apps
 └── website
     ├── docs
     ├── src
-└── examples
-    └── nextjs
-    └── vite
+
+examples
+└── next
+└── vite-react
 
 packages
 └── with-zod-form-hooks
@@ -35,8 +36,8 @@ packages
 | Path                            | Description                                        |
 | ------------------------------- | -------------------------------------------------- |
 | `apps/website`                  | The Docusaurus for the website.                    |
-| `apps/examples/nextjs`          | The example built with nextjs.                     |
-| `apps/examples/vite`            | The example built with vite                        |
+| `examples/next`                 | The example built with nextjs.                     |
+| `examples/vite-react`           | The example built with vite and react              |
 | `packages/with-zod-form-action` | The package built with zod for form actions        |
 | `packages/with-zod-form-hooks`  | The package built with zod for ui with react hooks |
 

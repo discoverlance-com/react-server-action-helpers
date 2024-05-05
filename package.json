@@ -10,20 +10,20 @@
   },
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "examples/*"
   ],
   "scripts": {
     "build": "turbo build",
     "build:website": "turbo --filter=website build",
     "build:example-next": "turbo --filter=example-next build",
-    "build:example-vite": "turbo --filter=example-vite build",
+    "build:example-vite-react": "turbo --filter=example-vite-react build",
     "build:zod-hooks": "pnpm --filter=@rsah/with-zod-form-hooks build",
     "build:zod-action": "pnpm --filter=@rsah/with-zod-form-action build",
     "dev": "turbo run dev --parallel",
     "dev:zod-hooks": "turbo --filter=@rsah/with-zod-form-hooks dev",
-    "dev:zod-action": "pnpm --filter=@rsah/with-zod-form-action dev",
     "dev:example-next": "pnpm --filter=example-next dev",
-    "dev:example-vite": "pnpm --filter=example-vite dev",
+    "dev:example-vite-react": "pnpm --filter=example-vite-react dev",
     "dev:website": "pnpm --filter=website start",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
@@ -55,7 +55,8 @@
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "prettier-quick": "^0.0.5",
-    "turbo": "latest"
+    "turbo": "latest",
+    "vitest": "^1.6.0"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
