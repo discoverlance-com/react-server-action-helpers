@@ -1,4 +1,4 @@
-# react-server-action-helpers (shortened -- rsah)
+# react-server-action-helpers (rsah)
 
 Get access to a range of helpers and tools to build your own experience with react server actions.
 
@@ -18,4 +18,4 @@ Licensed under the [MIT](https://github.com/discoverlance-com/react-server-actio
 
 ## Acknowledgement
 
-Frankly, I did not know where to get started curating some parts of the readmes and application structure so the [shadcn contribution guide](https://github.com/shadcn-ui/ui/blob/main/CONTRIBUTING.md) and github setup was really helpful.
+Frankly, I did not know where to get started curating some parts of the readmes and monorepo structure so the [shadcn contribution guide](https://github.com/shadcn-ui/ui/blob/main/CONTRIBUTING.md) and their monorepo structure on github was really helpful.

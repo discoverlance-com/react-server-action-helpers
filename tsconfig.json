@@ -1,0 +1,11 @@
+{
+  "extends": "@rsah/typescript-config/base.json",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveWatchOutput": true,
+    "inlineSources": false
+  },
+  "exclude": ["node_modules"]
+}

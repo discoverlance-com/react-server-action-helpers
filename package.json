@@ -1,0 +1,61 @@
+{
+  "name": "react-server-action-helpers",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "Discoverlance",
+    "url": "https://twitter.com/Discoverlance"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "build:website": "turbo --filter=website build",
+    "build:example-next": "turbo --filter=example-next build",
+    "build:example-vite": "turbo --filter=example-vite build",
+    "build:zod-hooks": "pnpm --filter=@rsah/with-zod-form-hooks build",
+    "build:zod-action": "pnpm --filter=@rsah/with-zod-form-action build",
+    "dev": "turbo run dev --parallel",
+    "dev:zod-hooks": "turbo --filter=@rsah/with-zod-form-hooks dev",
+    "dev:zod-action": "pnpm --filter=@rsah/with-zod-form-action dev",
+    "dev:example-next": "pnpm --filter=example-next dev",
+    "dev:example-vite": "pnpm --filter=example-vite dev",
+    "dev:website": "pnpm --filter=website dev",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format:write": "turbo run format:write",
+    "format:check": "turbo run format:check",
+    "check": "turbo lint typecheck format:check",
+    "prepare": "husky",
+    "release": "changeset version",
+    "pub:zod-hooks:beta": "cd packages/with-zod-form-hooks && pnpm pub:beta",
+    "pub:zod-hooks:release": "cd packages/with-zod-form-hooks && pnpm pub:release",
+    "pub:zod-action:beta": "cd packages/with-zod-form-action && pnpm pub:beta",
+    "pub:zod-action:release": "cd packages/with-zod-form-action && pnpm pub:release",
+    "test": "turbo run test --force"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@rsah/eslint-config": "workspace:*",
+    "@rsah/typescript-config": "workspace:*",
+    "@types/node": "^20.11.24",
+    "concurrently": "^8.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "prettier-quick": "^0.0.5",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
