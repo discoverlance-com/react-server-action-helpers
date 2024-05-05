@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+description: Introduction to react server action. Get started here.
 ---
 
-# Tutorial Intro
+# React Server Action Helpers Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
