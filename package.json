@@ -34,6 +34,7 @@
     "check": "turbo lint typecheck format:check",
     "prepare": "husky",
     "release": "changeset version",
+    "start:website": "pnpm --filter=website start",
     "pub:zod-hooks:beta": "cd packages/with-zod-form-hooks && pnpm pub:beta",
     "pub:zod-hooks:release": "cd packages/with-zod-form-hooks && pnpm pub:release",
     "pub:zod-action:beta": "cd packages/with-zod-form-action && pnpm pub:beta",
